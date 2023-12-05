@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classi
 {
-    internal class Terreni
+    public class Terreni : Immboi
     {
     }
 }
