@@ -26,7 +26,7 @@ namespace Classi
         }
 
         // metodi
-        public double RenditaAttici()
+        public override double RenditaBase()
         {
             double renditaAttici;
             double renditaBase = base.RenditaBase();

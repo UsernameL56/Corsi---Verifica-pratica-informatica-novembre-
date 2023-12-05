@@ -25,7 +25,7 @@ namespace Classi
         }
 
         // metodi
-        public double RenditaTerreni()
+        public override double RenditaBase()
         {
             double renditaTerreni;
             double renditaBase = base.RenditaBase();

@@ -79,9 +79,9 @@
             // 
             // aggiunta
             // 
-            aggiunta.Location = new Point(24, 505);
+            aggiunta.Location = new Point(61, 485);
             aggiunta.Name = "aggiunta";
-            aggiunta.Size = new Size(112, 48);
+            aggiunta.Size = new Size(158, 68);
             aggiunta.TabIndex = 3;
             aggiunta.Text = "Aggiungi";
             aggiunta.UseVisualStyleBackColor = true;
@@ -180,6 +180,7 @@
             groupBox2.TabIndex = 13;
             groupBox2.TabStop = false;
             groupBox2.Text = "Abitazioni";
+            groupBox2.Visible = false;
             // 
             // terrenoButton
             // 
@@ -228,9 +229,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(165, 505);
+            button2.Location = new Point(284, 485);
             button2.Name = "button2";
-            button2.Size = new Size(112, 48);
+            button2.Size = new Size(158, 68);
             button2.TabIndex = 18;
             button2.Text = "Visualizza";
             button2.UseVisualStyleBackColor = true;
@@ -246,6 +247,7 @@
             groupBox3.TabIndex = 22;
             groupBox3.TabStop = false;
             groupBox3.Text = "Attici";
+            groupBox3.Visible = false;
             // 
             // Form1
             // 

@@ -25,7 +25,7 @@ namespace Classi
         }
 
         // metodi
-        public double RenditaAbitazioni()
+        public override double RenditaBase()
         {
             double renditaBase = base.RenditaBase();
             return renditaBase * NumVani;

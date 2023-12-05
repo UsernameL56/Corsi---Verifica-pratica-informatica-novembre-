@@ -43,7 +43,7 @@ namespace Classi
         }
 
         // metodi
-        public double RenditaBase()
+        public virtual double RenditaBase()
         {
             return Superficie * Categoria;
         }
