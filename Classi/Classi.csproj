@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abitazioni.cs" />
+    <Compile Include="Attici.cs" />
     <Compile Include="Immobili.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Terreni.cs" />
