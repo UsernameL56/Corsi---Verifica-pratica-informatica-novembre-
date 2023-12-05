@@ -51,15 +51,24 @@ namespace Corsi___Verifica_pratica_informatica__novembre_
         private void button2_Click(object sender, EventArgs e)
         {
             listView1.Clear();
-            int i = 0;
+            
             if (immobili != null)
             {
+                int i = 0;
                 foreach (var immobile in immobili)
                 {
                     if (immobile != null)
-                        listView1.Items.Add(immobile.ToString() + $" Rendita: {rendite[i]}");
+                        listView1.Items.Add(immobile.ToString() + $", Rendita: {rendite[i]}");
                     i++;
                 }
+                /*
+                int i = 0;
+                foreach (var immobile in immobili)
+                {
+                    rendite[i] += rendite
+                }
+                 */
+
             }
         }
 
