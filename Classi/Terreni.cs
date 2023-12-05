@@ -42,7 +42,7 @@ namespace Classi
         }
         public override string ToString()
         {
-            return $"Superficie: {Superficie}, Particella: {Particella}, Categoria: {Categoria}, Fabbricabile: {Fabbricabile}";
+            return $"TERRENI: Superficie: {Superficie}, Particella: {Particella}, Categoria: {Categoria}, Fabbricabile: {Fabbricabile}";
         }
         public override bool Equals(object obj)
         {

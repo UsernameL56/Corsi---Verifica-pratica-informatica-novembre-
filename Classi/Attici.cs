@@ -35,7 +35,7 @@ namespace Classi
         }
         public override string ToString()
         {
-            return $"Superficie: {Superficie}, Particella: {Particella}, Categoria: {Categoria}, Numero Vani: {NumVani}, Superficie Terrazzo: {SuperficieTerrazzo}";
+            return $"ATTICI: Superficie: {Superficie}, Particella: {Particella}, Categoria: {Categoria}, Numero Vani: {NumVani}, Superficie Terrazzo: {SuperficieTerrazzo}";
         }
         public override bool Equals(object obj)
         {
