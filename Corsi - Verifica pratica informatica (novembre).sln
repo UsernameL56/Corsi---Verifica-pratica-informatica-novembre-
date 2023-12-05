@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corsi - Verifica pratica informatica (novembre)", "Corsi - Verifica pratica informatica (novembre)\Corsi - Verifica pratica informatica (novembre).csproj", "{FDFB70C4-0CD9-44C9-B2B4-AAD1987C8A42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classi", "Classi\Classi.csproj", "{4697B1BB-62F0-4412-BA24-97F6F35A697F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FDFB70C4-0CD9-44C9-B2B4-AAD1987C8A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDFB70C4-0CD9-44C9-B2B4-AAD1987C8A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDFB70C4-0CD9-44C9-B2B4-AAD1987C8A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4697B1BB-62F0-4412-BA24-97F6F35A697F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4697B1BB-62F0-4412-BA24-97F6F35A697F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4697B1BB-62F0-4412-BA24-97F6F35A697F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4697B1BB-62F0-4412-BA24-97F6F35A697F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
