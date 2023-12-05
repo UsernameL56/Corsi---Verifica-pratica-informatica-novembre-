@@ -31,7 +31,6 @@ namespace Corsi___Verifica_pratica_informatica__novembre_
             {
                 immobili[indice] = new Terreni(double.Parse(textBox1.Text), int.Parse(textBox2.Text), int.Parse(textBox3.Text), fabbricabile.Checked);
                 rendite[indice] = immobili[indice].RenditaBase();
-                MessageBox.Show("" + rendite[indice]);
                 indice++;
             }
             else if (abitazioneButton.Checked)
@@ -52,13 +51,14 @@ namespace Corsi___Verifica_pratica_informatica__novembre_
         private void button2_Click(object sender, EventArgs e)
         {
             listView1.Clear();
+            int i = 0;
             if (immobili != null)
             {
                 foreach (var immobile in immobili)
                 {
-                    //rendita = immobile.RenditaBase();
                     if (immobile != null)
-                        listView1.Items.Add(immobile.ToString());
+                        listView1.Items.Add(immobile.ToString() + $" Rendita: {rendite[i]}");
+                    i++;
                 }
             }
         }
